@@ -1,0 +1,44 @@
+.Contenedor_info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    padding: 1px 30px;
+    box-sizing: border-box;
+    line-height: 1.6;
+    border-top-style: solid;
+    border-top-color: #e4f7fd;
+}
+
+.Nosotros {
+    width: 100%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Puritan', sans-serif;
+}
+
+.Info {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Glegoo', serif;
+
+}
+
+.Quienes{
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Puritan', sans-serif;
+
+}
+
+.Info2 {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 20px;
+    font-family: 'Caudex', serif;
+}

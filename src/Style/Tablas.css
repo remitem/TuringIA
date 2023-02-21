@@ -1,0 +1,131 @@
+.Contenedor_tablas {
+    width: 900px;
+    height: 350px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.Contenedor_tabla1 {
+    width: 250px;
+    height: 300px;
+    background: rgba(20, 86, 128, 0.7);
+    margin: 20px 15px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Contenedor_tabla1:hover {
+    background-color: #587dff;
+} 
+
+.Contenedor_tabla2 {
+    width: 250px;
+    height: 300px;
+    background-color:  #145680;
+    margin: 20px 15px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Contenedor_tabla2:hover {
+    background-color: #587dff;
+}
+
+.Contenedor_tabla3 {
+    width: 250px;
+    height: 300px;
+    background: rgba(20, 86, 128, 0.7);
+    margin: 20px 15px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Contenedor_tabla3:hover {
+    background-color: #587dff;
+} 
+
+.Titulo_tabla1 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 5px;
+}
+
+.Titulo_tabla2 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10px;
+}
+
+.Titulo_tabla3 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 10px;
+}
+
+
+.Elemento1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+    color: white;
+}
+
+.Elemento2 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+    color: white;
+}
+
+.Elemento3 {
+    padding-left: 35px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .Contenedor_tablas{
+        height: auto;
+        width: auto;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

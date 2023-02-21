@@ -1,0 +1,47 @@
+.Contenedor_principal {
+    height: 200px;
+    width: 650px; 
+    margin: 20px 20px 10px 20px;
+    background-color: #145680;
+    display: flex;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.Imagen {
+    height: 200px;
+    width: 170px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.Nombre {
+    color:  white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 25px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+.Texto {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 590px) {
+    .Texto {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .Imagen {
+        display: none;
+    }
+
+}
